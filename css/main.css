@@ -1,0 +1,17 @@
+* {
+  margin: 0px;
+  padding: 0px;
+  box-sizing: border-box;
+}
+header {
+  width: 1024px;
+  max-width: 100%;
+  margin-left: auto;
+  margin-right: auto;
+  padding: 70px 0px;
+}
+header ul {
+  list-style: none;
+  display: flex;
+  justify-content: space-around;
+}
