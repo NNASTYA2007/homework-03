@@ -23,28 +23,33 @@ main {
   margin-right: auto;
   margin: 0 auto;
 }
+.article-wrapper {
+  display: flex;
+  flex-wrap: wrap;
+}
 article {
   width: 50%;
-  float: left;
   color: rgb(122, 121, 121);
   padding: 0 29px;
   margin: 65px 0;
 }
 button {
-  background: rgb(122, 121, 121);
+  background: transparent;
   width: 165px;
   height: 60px;
-}
-.section-inner h4 + h2 {
-  margin-top: 15px;
-  margin-bottom: 25px;
+  margin: 0 0 30px;
 }
 article img {
   width: 100%;
 }
-.clear {
-  clear: both;
+article img + p {
+  font-size: 14px;
+  text-transform: uppercase;
+  margin-top: 30px;
 }
 .more {
   text-align: center;
+}
+article h2 {
+  margin: 30px 0 40px;
 }
